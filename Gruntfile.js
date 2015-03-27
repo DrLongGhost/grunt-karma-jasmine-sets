@@ -27,12 +27,12 @@ var karmaTests = {
     }
   , karmaConfig = {
     options: {
-      browsers: ['PhantomJS']
+      browsers: ['PhantomJS','Chrome','Firefox']
     , sets: {}
     , basePath: ''
     , frameworks: ['jasmine', 'sets']
     , reporters: [
-        'nyan'
+        'progress'
       ]
     , logLevel: 'INFO'
     , port: 9876
